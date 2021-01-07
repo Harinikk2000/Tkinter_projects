@@ -1,3 +1,12 @@
+"""
+VIEW DICTIONARY
+ADD WORD AND MEANING
+UPDATE WORD AND MEANING
+DELETE WORD FROM RECORD
+CLEAR THE ENTRY
+EXIT
+"""
+
 from tkinter import *
 import tkinter as tk
 from tkinter import ttk
