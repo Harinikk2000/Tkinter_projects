@@ -7,6 +7,45 @@ CLEAR THE ENTRY
 EXIT
 """
 
+
+
+"""
+--
+-- Database: `dictionary`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `english`
+--
+
+CREATE TABLE `english` (
+  `sno` int(11) NOT NULL,
+  `word` varchar(25) NOT NULL,
+  `definition` varchar(100) NOT NULL DEFAULT ''
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `english`
+--
+
+INSERT INTO `english` (`sno`, `word`, `definition`) VALUES
+(1, 'table', 'to keep things'),
+(2, 'rose', 'a flower in garden'),
+(3, 'apple', 'a fruit'),
+(4, 'head', 'a part of body'),
+(5, 'pen', 'a tool to write'),
+(6, 'bottle', 'to hold a quantity of water or liquid'),
+(7, 'note', 'to note things'),
+(8, 'pencil', 'to write something'),
+(9, 'cold', 'to feel cool and freezed'),
+(10, 'eraser', 'to eraser the writen things'),
+(11, 'window', 'for the purpose of air and light'),
+(12, 'water', 'to provide energy');
+"""
+
+
 from tkinter import *
 import tkinter as tk
 from tkinter import ttk
